@@ -7,7 +7,7 @@ import RoutesToTravelSection from "../components/home/RoutesToTravelSection"
 import Testimonials from "../components/home/Testimonials"
 import CallToAction from "../components/home/CallToAction"
 import WhyHireTaxi from "../components/home/WhyHireTaxi"
-import BookingFormSection from "../components/home/BookingFormSection"
+import LatestBlogsSection from "../components/home/LatestBlogsSection"
 
 const STATS = [
   { label: "Happy Riders", value: "12,000+" },
@@ -75,6 +75,7 @@ function Home() {
       <CallToAction />
       <WhyChooseUsSection />
       <Testimonials />
+      <LatestBlogsSection />
       <WhyHireTaxi />
     </main>
   )

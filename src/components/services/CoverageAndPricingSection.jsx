@@ -1,7 +1,7 @@
 const PRICING = [
   { label: "Airport Transfer", value: "From Rs. 699" },
   { label: "City Ride", value: "From Rs. 249" },
-  { label: "Outstation One-Way", value: "From Rs. 14/km" },
+  { label: "Outstation One-Way", value: "From Rs. 10/km" },
 ]
 
 const ROUTES = ["Indore Airport - Vijay Nagar", "Indore - Ujjain", "Indore - Omkareshwar", "Indore - Bhopal"]

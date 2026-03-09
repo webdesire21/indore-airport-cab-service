@@ -4,6 +4,7 @@ import OurServicesSection from "../components/home/OurServicesSection"
 import FleetPreviewSection from "../components/home/FleetPreviewSection"
 import WhyChooseUsSection from "../components/home/WhyChooseUsSection"
 import RoutesToTravelSection from "../components/home/RoutesToTravelSection"
+import OutstationTravelSection from "../components/home/OutstationTravelSection"
 import CallToAction from "../components/common/CallToAction"
 import TestimonialsSection from "../components/common/TestimonialsSection"
 import WhyHireTaxi from "../components/home/WhyHireTaxi"
@@ -72,6 +73,7 @@ function Home() {
       <OurServicesSection />
       <FleetPreviewSection />
       <RoutesToTravelSection />
+      <OutstationTravelSection />
       <CallToAction />
       <WhyChooseUsSection />
       <TestimonialsSection />

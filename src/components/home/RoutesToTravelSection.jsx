@@ -1,48 +1,42 @@
 import { Link } from "react-router-dom"
-import { IndianRupee, Phone, Route, ArrowRight } from "lucide-react"
+import { IndianRupee, Phone, ArrowRight } from "lucide-react"
 
 const ROUTES = [
   {
-    title: "Indore To Bhopal One Way Cab",
-    description:
-      "Comfortable one-way intercity transfer with verified driver and clean sedan options.",
-    price: "Starting at Rs 2,699",
+    title: "Indore to bhopal",
+    description: "One way seden cab cost with clean car and timely pickup.",
+    price: "Starting at Rs 2,499",
     image: "/indore-bhopal.jpg",
   },
   {
-    title: "Indore Tour Package",
-    description:
-      "Flexible city tour package covering major spots with full-day cab availability.",
-    price: "Starting at Rs 1,999",
-    image: "/indore-tour.jpg",
-  },
-  {
-    title: "Indore To Omkareshwar Round Trip",
-    description:
-      "Same-day round trip package ideal for spiritual travel and family visits.",
-    price: "Starting at Rs 3,499",
+    title: "Indore to Omkareshwar",
+    description: "Same day round trip with comfortable seating and smooth return.",
+    price: "Starting at Rs 2,499",
     image: "/indore-omkareswar.jpg",
   },
   {
-    title: "Indore To Ujjain Round Trip Package",
-    description:
-      "Dedicated round trip with waiting time support for temple and city visits.",
+    title: "Indore to Ujjain",
+    description: "Same day round trip with reliable driver and easy booking.",
     price: "Starting at Rs 2,499",
     image: "/indore-ujjain.avif",
   },
   {
-    title: "Indore To Maheshwar Round Trip Package",
-    description:
-      "Planned route with comfort stops for heritage sightseeing and return travel.",
-    price: "Starting at Rs 3,799",
+    title: "Indore to Maheshwar",
+    description: "Same day round trip with safe travel and planned route.",
+    price: "Starting at Rs 2,799",
     image: "/indore-maheshwar.jpg",
   },
   {
-    title: "Indore To Mandu Round Trip Package",
-    description:
-      "Weekend-friendly round trip for historic Mandu with reliable return timing.",
-    price: "Starting at Rs 3,899",
+    title: "Indore to Mandu",
+    description: "Sedan cab cost for same day round trip with return on time.",
+    price: "Starting at Rs 2,799",
     image: "/indore-mandav.jpg",
+  },
+  {
+    title: "Local Indore Package",
+    description: "Local Indore package for city visits with flexible stops.",
+    price: "Starting at Rs 2,499",
+    image: "/indore-tour.jpg",
   },
 ]
 

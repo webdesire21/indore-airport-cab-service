@@ -4,10 +4,10 @@ import { Link } from "react-router-dom"
 import { ArrowRight, Fuel, ShieldCheck, Users } from "lucide-react"
 
 const FLEET = [
-  { name: "Swift Dzire", seats: "4+1 Seats", fuel: "Petrol / CNG", tag: "Economy Sedan", image: "/Ertiga.jpg" },
-  { name: "Ertiga", seats: "6+1 Seats", fuel: "Petrol / CNG", tag: "Family MPV", image: "/Ertiga.jpg" },
-  { name: "Innova", seats: "6+1 Seats", fuel: "Diesel", tag: "Premium MPV", image: "/Ertiga.jpg" },
-  { name: "Innova Crysta", seats: "6+1 Seats", fuel: "Diesel", tag: "Executive Class", image: "/Ertiga.jpg" },
+  { name: "Swift Dzire", seats: "4+1 Seats", fuel: "Petrol / CNG", tag: "Economy Sedan", image: "/swift-dzire.jpeg" },
+  { name: "Ertiga", seats: "6+1 Seats", fuel: "Petrol / CNG", tag: "Family MPV", image: "/ertiga01.jpeg" },
+  { name: "Fortuner", seats: "6+1 Seats", fuel: "Petrol", tag: "Premium MPV", image: "/fortuner.jpeg" },
+  { name: "Innova Crysta", seats: "6+1 Seats", fuel: "Diesel", tag: "Executive Class", image: "/innova-crysta.jpeg" },
 ]
 
 function FleetPreviewSection() {
